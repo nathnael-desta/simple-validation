@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="form_container">
+      <form novalidate>
+        <div class="email">
+          <label for="email">Enter your Email: </label>
+          <input type="email" name="email" id="email" class="" required />
+          <span class="error"></span>
+        </div>
+        <div class="country">
+          <label for="country"> Enter Country of origin: </label>
+          <input type="text" id="country" name="country" required />
+          <span class="error"></span>
+        </div>
+        <div class="zip-code">
+          <label for="zipcode"> Enter zipcode: </label>
+          <input type="number" id="zipcode" name="zipcode" required />
+          <span class="error"></span>
+        </div>
+        <div class="password">
+          <label for="password">Enter Password: </label>
+          <input type="text" id="password" name="password" required />
+          <span class="error"></span>
+        </div>
+        <div class="password_confirmation">
+          <label for="password_confirmation">Enter Your Password Again: </label>
+          <input
+            type="text"
+            id="password_confirmation"
+            name="password_confirmation"
+            required
+          />
+          <span class="error"></span>
+        </div>
+        <div class="submit">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
